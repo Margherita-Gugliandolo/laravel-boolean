@@ -21,7 +21,7 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('paste', function(){
+Route::get('/paste', function(){
 
     $data = config('pasta.data', []);
 
